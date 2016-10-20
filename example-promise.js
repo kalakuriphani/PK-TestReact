@@ -16,7 +16,7 @@ function addPromise(a, b){
 });
 
 addPromise("phani",1).then(function(sum){
-  console.log("sum ",sum)
+  console.log("sum value ",sum)
 }, function(err){
   console.log("Error ",err);
 }
