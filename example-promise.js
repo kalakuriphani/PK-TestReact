@@ -3,7 +3,7 @@ function addPromise(a, b){
      if(typeof a ==='number' && typeof b === 'number'){
        resolve(a+b);
      }else{
-       reject('A & B should be numbers');
+       reject('A & B should be numbers !');
      }
 
    });
